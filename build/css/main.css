@@ -43,11 +43,19 @@
   margin-right: 30px;
   padding: 5px 0;
 }
+.nav .nav__ul li:hover {
+  background-color: #ffffff;
+  border-radius: 0;
+  transition: all 0.5s;
+}
 .nav .nav__ul li a {
   color: #ffffff;
   text-decoration: none;
   font-family: "Roboto Condensed", sans-serif;
   padding: 10px;
+}
+.nav .nav__ul li a:hover {
+  color: #000000;
 }
 
 /*# sourceMappingURL=main.css.map */
