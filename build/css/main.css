@@ -128,5 +128,31 @@
     background-image: url(../../src/imgs/slider4.jpg);
   }
 }
+.enterprise {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.enterprise div {
+  display: flex;
+  align-items: center;
+  width: 80%;
+}
+.enterprise div img {
+  width: 600px;
+}
+.enterprise div div {
+  display: block;
+}
+.enterprise div div h3 {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 21px;
+}
+.enterprise div div p {
+  font-family: sans-serif;
+  font-size: 18px;
+}
 
 /*# sourceMappingURL=main.css.map */
