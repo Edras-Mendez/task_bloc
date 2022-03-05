@@ -1,0 +1,39 @@
+.footer
+  position: relative
+  margin-top: 70px
+  background-color: $black
+  display: grid
+  grid-template-rows: 120px 30px
+  grid-template-columns: repeat(3, 1fr)
+  justify-items: center
+
+  
+  .footer__container
+    text-align: center
+    margin: auto
+
+    p
+      font-size: 18px
+      font-family: sans-serif
+      color: $white
+      padding-top: 10px
+
+    img
+      width: 50px
+      margin-right: 5px
+
+  .footer__logo
+    padding-top: 10px
+    font-size: 22px
+    margin-left: 110px
+    font-weight: 600
+
+    span
+      font-family: 'Roboto Condensed', sans-serif
+      color: $white
+      display: flex
+
+  .footer__rights-reserved
+    color: $white
+    grid-column: 1/span 3
+
